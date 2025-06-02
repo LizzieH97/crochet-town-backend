@@ -1,11 +1,14 @@
 package org.crochetData.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
+@Table(name="item")
 public class Item {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int ID;
     private String name;
     private Double difficulty;
@@ -15,8 +18,37 @@ public class Item {
     private int favouritesCount;
     private int reviews;
     private int authorID;
-    private String[] pattern;
+    private double hookSize;
 
+    public double getHookSize() {
+        return hookSize;
+    }
+
+    public void setHookSize(double hookSize) {
+        this.hookSize = hookSize;
+    }
+
+    public double getEndSize() {
+        return endSize;
+    }
+
+    public void setEndSize(double endSize) {
+        this.endSize = endSize;
+    }
+
+    public List<String> getColours() {
+        return colours;
+    }
+
+    public void setColours(List<String> colours) {
+        this.colours = colours;
+    }
+
+    private double endSize;
+    @ElementCollection
+    private List<String> pattern;
+    @ElementCollection
+    private List<String> colours;
     public int getID() {
         return ID;
     }
@@ -89,11 +121,11 @@ public class Item {
         this.authorID = authorID;
     }
 
-    public String[] getPattern() {
+    public List<String> getPattern() {
         return pattern;
     }
 
-    public void setPattern(String[] pattern) {
+    public void setPattern(List<String> pattern) {
         this.pattern = pattern;
     }
 }
