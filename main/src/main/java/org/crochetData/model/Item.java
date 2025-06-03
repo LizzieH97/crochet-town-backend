@@ -110,8 +110,6 @@ public class Item {
     }
 
 
-
-
     public void setReviews(int reviews) {
         this.reviews = reviews;
     }
