@@ -1,0 +1,14 @@
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/model/Item.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/ItemSeeder.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/service/ItemService.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/MySQLConnectionTest.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/utils/DatabaseProperties.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/model/Pattern.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/repository/ItemRepository.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/controller/ItemController.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/repository/PatternRepository.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/service/FileStorageService.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/model/Review.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/utils/CrochetData.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/model/User.java
+/home/lizzie/Desktop/nology/solo-project/crochet-town-backend/src/main/java/org/crochetdata/CrochetDataApplication.java

@@ -1,0 +1,14 @@
+org/crochetdata/utils/CrochetData.class
+org/crochetdata/ItemSeeder.class
+org/crochetdata/service/FileStorageService.class
+org/crochetdata/repository/PatternRepository.class
+org/crochetdata/utils/DatabaseProperties.class
+org/crochetdata/CrochetDataApplication.class
+org/crochetdata/model/User.class
+org/crochetdata/model/Item.class
+org/crochetdata/service/ItemService.class
+org/crochetdata/controller/ItemController.class
+org/crochetdata/model/Review.class
+org/crochetdata/model/Pattern.class
+org/crochetdata/MySQLConnectionTest.class
+org/crochetdata/repository/ItemRepository.class
