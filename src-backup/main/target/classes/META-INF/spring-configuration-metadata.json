@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "org.crochetdata.utils.DatabaseProperties",
+      "sourceType": "org.crochetdata.utils.DatabaseProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.crochetdata.utils.DatabaseProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.crochetdata.utils.DatabaseProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.crochetdata.utils.DatabaseProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.crochetdata.utils.DatabaseProperties"
+    }
+  ],
+  "hints": []
+}
